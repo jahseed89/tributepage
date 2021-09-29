@@ -1,0 +1,65 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.container {
+	/*border: 1px solid blue;*/
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+
+}
+
+#main {
+	/*border: 1px solid blue;*/
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+	background-color: #e9eef3;
+	/*align-items: center;*/
+}
+
+#title {
+	/*border: 1px solid blue;*/
+	margin-top: 50px;
+	margin-bottom: 30px;
+	text-align-last: center;
+}
+
+#title h1 {
+	color: #007bff;
+	font-size: 2.5rem;
+	font-family: Barlow;
+	font-weight: 400;
+}
+
+#title h3 {
+	font-size: 2.5rem;
+	font-family: Fraunces;
+	margin-top: 10px;
+	font-weight: 400;
+}
+
+#img-div {
+	/*border: 1px solid blue;*/
+	text-align: center;
+	background-image: url(../images/Dr Nkrumah.jpg);
+}
+
+#img-div p {
+	margin-top: 10px;
+}
+
+#img {
+	background-size: cover;
+}
+
+#tribute-link {
+	text-align: center;
+	color: #7c7e86;
+	margin-top: 30px;
+	font-size: 1.2rem;
+}
