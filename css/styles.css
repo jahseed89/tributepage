@@ -43,6 +43,11 @@
 	font-weight: 400;
 }
 
+#empty {
+	color: royalblue;
+	font-size: medium;
+}
+
 #img-div {
 	/*border: 1px solid blue;*/
 	text-align: center;
@@ -57,9 +62,57 @@
 	background-size: cover;
 }
 
+.img-responsive {
+	margin-left: auto;
+	margin-right: auto;
+}
+
 #tribute-link {
 	text-align: center;
 	color: #7c7e86;
 	margin-top: 30px;
 	font-size: 1.2rem;
+}
+
+
+
+
+@media  (max-width: 768px) {
+	
+	.textContent {
+		font-size: 10px;
+		/* color: red; */
+	}
+
+	#main {
+		padding: 5px;
+	}
+
+	#title {
+		padding: 5px;
+		text-align: center;
+	}
+
+	#empty {
+		color: royalblue;
+		font-size: smaller;
+	}
+
+	#img-div {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#img-div p {
+		font-size: 1em;
+		/* color: red; */
+	}
+
+	.img-responsive {
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+
 }
