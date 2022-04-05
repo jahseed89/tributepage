@@ -1,118 +1,138 @@
-*{
-	margin: 0px;
-	padding: 0px;
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.africa__img {
+  position: absolute;
+  border-radius: 100%;
+}
+
+.africa__img img {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.gh__flag {
+  position: absolute;
+  left: 83%;
+}
+
+.gh__flag img {
+  border: 2px solid green;
+  width: 80%;
+  border-radius: 100%;
 }
 
 .container {
-	/*border: 1px solid blue;*/
-	height: 100vh;
-	display: flex;
-	justify-content: center;
-
+  height: 100vh;
+  display: flex;
+  justify-content: center;
 }
 
 #main {
-	/*border: 1px solid blue;*/
-	width: 90%;
-	display: flex;
-	justify-content: center;
-	flex-direction: column;
-	align-items: center;
-	background-color: #e9eef3;
-	/*align-items: center;*/
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #e9eef3;
+  /*align-items: center;*/
 }
 
 #title {
-	/*border: 1px solid blue;*/
-	margin-top: 50px;
-	margin-bottom: 30px;
-	text-align-last: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-align-last: center;
 }
 
 #title h1 {
-	color: #007bff;
-	font-size: 2.5rem;
-	font-family: Barlow;
-	font-weight: 400;
+  color: #007bff;
+  font-size: 2.5rem;
+  font-family: Barlow;
+  font-weight: 400;
 }
 
 #title h3 {
-	font-size: 2.5rem;
-	font-family: Fraunces;
-	margin-top: 10px;
-	font-weight: 400;
+  font-size: 2.5rem;
+  font-family: Fraunces;
+  margin-top: 10px;
+  font-weight: 400;
 }
 
 #empty {
-	color: royalblue;
-	font-size: medium;
+  color: rgb(69, 111, 238);
+  font-size: medium;
 }
 
 #img-div {
-	/*border: 1px solid blue;*/
-	text-align: center;
-	background-image: url(../images/Dr Nkrumah.jpg);
+  text-align: center;
+  background-image: url("../images/Dr Nkrumah.jpg");
 }
 
 #img-div p {
-	margin-top: 10px;
+  margin-top: 10px;
 }
 
 #img {
-	background-size: cover;
+  background-size: cover;
 }
 
 .img-responsive {
-	margin-left: auto;
-	margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #tribute-link {
-	text-align: center;
-	color: #7c7e86;
-	margin-top: 30px;
-	font-size: 1.2rem;
+  text-align: center;
+  color: #7c7e86;
+  margin-top: 30px;
+  font-size: 1.2rem;
 }
 
+@media (max-width: 800px) {
+  .africa__img {
+    width: 20%;
+  }
+}
 
+@media (max-width: 600px) {
+  .africa__img {
+    width: 15%;
+  }
 
+  .text-content {
+    font-size: 10px;
+    /* color: red; */
+  }
 
-@media  (max-width: 768px) {
-	
-	.textContent {
-		font-size: 10px;
-		/* color: red; */
-	}
+  #main {
+    padding: 5px;
+  }
 
-	#main {
-		padding: 5px;
-	}
+  #title {
+    padding: 5px;
+    text-align: center;
+  }
 
-	#title {
-		padding: 5px;
-		text-align: center;
-	}
+  #empty {
+    color: royalblue;
+    font-size: smaller;
+  }
 
-	#empty {
-		color: royalblue;
-		font-size: smaller;
-	}
+  #img-div {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
 
-	#img-div {
-		text-align: center;
-		margin-left: auto;
-		margin-right: auto;
-	}
+  #img-div p {
+    font-size: 1em;
+  }
 
-	#img-div p {
-		font-size: 1em;
-		/* color: red; */
-	}
-
-	.img-responsive {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-
+  .img-responsive {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
