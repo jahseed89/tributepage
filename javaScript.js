@@ -1,9 +1,17 @@
-const now = new Date()
+const clock = document.getElementById('empty')
 
+const tick = () => {
+    const now = new Date()
+    const hours = now.getHours()
+    const minute = now.getMinutes()
+    const seconds = now.getSeconds()
 
-const curentDate = document.getElementById("empty");
+    const html = `
+        <span>${hours}</span>:
+        <span>${minute}</span>:
+        <span>${seconds}</span>
+    `
+    clock.innerHTML = html
+}
 
-curentDate.innerHTML = "Date: " + now;
-
-// const infoLink = document.getElementById('tribute-link');
-
+setInterval(tick, 1000)

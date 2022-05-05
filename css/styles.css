@@ -90,6 +90,9 @@
   margin-top: 30px;
   font-size: 1.2rem;
 }
+#tribute-link:hover {
+  color: #007bff;
+}
 
 @media (max-width: 800px) {
   .africa__img {
@@ -118,6 +121,7 @@
 
   #empty {
     color: royalblue;
+    font-size: 20px;
   }
 
   #img-div {
